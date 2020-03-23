@@ -1,6 +1,6 @@
 package Pages;
 import static org.assertj.core.api.Assertions.assertThat;
-import org.junit.Assert;
+import org.testng.Assert;
 import org.fluentlenium.core.FluentPage;
 import org.fluentlenium.core.annotation.PageUrl;
 import org.fluentlenium.core.domain.FluentWebElement;

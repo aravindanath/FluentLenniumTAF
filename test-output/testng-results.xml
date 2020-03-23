@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20585" started-at="2020-03-23T16:16:02Z" finished-at="2020-03-23T16:16:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20585" started-at="2020-03-23T16:16:02Z" finished-at="2020-03-23T16:16:22Z">
+      <class name="Tests.LoginTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:Tests.LoginTest@8909f18]" name="beforeMethod" is-config="true" duration-ms="8564" started-at="2020-03-23T16:16:02Z" finished-at="2020-03-23T16:16:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.LoginTest.testLogin() throws java.io.FileNotFoundException,java.io.IOException,org.json.simple.parser.ParseException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@31d7b7bf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:Tests.LoginTest@8909f18]" name="testLogin" duration-ms="10903" started-at="2020-03-23T16:16:10Z" finished-at="2020-03-23T16:16:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@8909f18]" name="afterMethod" is-config="true" duration-ms="1044" started-at="2020-03-23T16:16:21Z" finished-at="2020-03-23T16:16:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=LoginTest.testLogin()[pri:0, instance:Tests.LoginTest@8909f18] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Tests.LoginTest@8909f18]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-03-23T16:16:22Z" finished-at="2020-03-23T16:16:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:Tests.LoginTest@8909f18]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-03-23T16:16:22Z" finished-at="2020-03-23T16:16:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@31d7b7bf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
